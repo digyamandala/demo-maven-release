@@ -29,6 +29,25 @@
     </dependency>
   </dependencies>
 
+  <scm>
+    <developerConnection>scm:git:ssh@github.com.personal:digyamandala/demo-maven-release.git</developerConnection>
+    <connection>scm:git:ssh@github.com.personal:digyamandala/demo-maven-release.git</connection>
+    <tag>HEAD</tag>
+  </scm>
+
+  <distributionManagement>
+    <repository>
+      <id>central</id>
+      <name>a0xhncdtsdg4h-artifactory-primary-0-releases</name>
+      <url>https://digyareleases.jfrog.io/artifactory/default-maven-virtual</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>a0xhncdtsdg4h-artifactory-primary-0-snapshots</name>
+      <url>https://digyareleases.jfrog.io/artifactory/default-maven-virtual</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <build>
     <plugins>
       <plugin>
