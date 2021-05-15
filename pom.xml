@@ -30,8 +30,8 @@
   </dependencies>
 
   <scm>
-    <developerConnection>scm:git:ssh@github.com.personal:digyamandala/demo-maven-release.git</developerConnection>
-    <connection>scm:git:ssh@github.com.personal:digyamandala/demo-maven-release.git</connection>
+    <developerConnection>scm:git:git@github.com.personal:digyamandala/demo-maven-release.git</developerConnection>
+    <connection>scm:git:git@github.com.personal:digyamandala/demo-maven-release.git</connection>
     <tag>HEAD</tag>
   </scm>
 
